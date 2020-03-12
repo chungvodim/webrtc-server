@@ -1,13 +1,21 @@
-# ignore everything
-*
+node_modules
+bower_components
 
-# but not these files...
-!dist/RTCMultiConnection.js
-!dist/RTCMultiConnection.min.js
-!dev/*
-!package.json
-!logs.json
-!config.json
-!npm-test.js
-!server.js
-!README.md
+make-tar.sh
+
+*.tar.gz
+lib-cov
+v2.2.2
+
+.*.swp
+._*
+.DS_Store
+.git
+.hg
+.npmrc
+.lock-wscript
+.svn
+.wafpickle-*
+config.gypi
+CVS
+npm-debug.log
