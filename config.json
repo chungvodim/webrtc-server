@@ -1,17 +1,5 @@
 {
-  "socketURL": "/",
-  "dirPath": "",
-  "homePage": "/demos/index.html",
+  "socketURL": "https://avrtc.herokuapp.com:9001/",
   "socketMessageEvent": "RTCMultiConnection-Message",
-  "socketCustomEvent": "RTCMultiConnection-Custom-Message",
-  "port": "9001",
-  "enableLogs": "false",
-  "autoRebootServerOnFailure": "false",
-  "isUseHTTPs": "false",
-  "sslKey": "./fake-keys/privatekey.pem",
-  "sslCert": "./fake-keys/certificate.pem",
-  "sslCabundle": "",
-  "enableAdmin": "true",
-  "adminUserName": "username",
-  "adminPassword": "password"
+  "socketCustomEvent": "RTCMultiConnection-Custom-Message"
 }
